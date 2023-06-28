@@ -38,11 +38,12 @@ Based on the DSM theory, there is a clustering/grouping trend for words with sim
 
 <p></p>
 
-![ClusteringTrend](images/figure1.png)
+<img src="images/figure1.png"  width="40%" height="18%">
 
 - Moreover, the "closeness" of two words can be measured by the called Cosine Distance/Similarity. CS is a measure of the cosine of the angle between two non-zero vectors (θ). The following equation for cos(θ) is:
 
-![cosineDistance](images/cosineEq.png)
+
+<img src="images/cosineEq.png"  width="50%" height="25%">
 
 - So, back to the "Computer" examples mentioned at the beginning of the document. To identify the closest word to "Computer", we can calculate its CS value with all the other words included in the DSM file. Then the higher the CS value is, the closer a word is to "Computer".
 
