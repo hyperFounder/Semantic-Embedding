@@ -40,12 +40,7 @@ Based on the DSM theory, there is a clustering/grouping trend for words with sim
 
 ![ClusteringTrend](images/figure1.png)
 
-- Moreover, the "closeness" of two words can be measured by the called Cosine Distance/Similarity. CS is a measure of the cosine of the angle between two non-zero vectors (θ).
-<p></p>
-
-![cosSimilarity](images/cosSimilarity.png)
-
-- Cosine Distance is calculated by the following equation.
+- Moreover, the "closeness" of two words can be measured by the called Cosine Distance/Similarity. CS is a measure of the cosine of the angle between two non-zero vectors (θ). The following equation for cos(θ) is:
 
 ![cosineDistance](images/cosineEq.png)
 
