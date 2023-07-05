@@ -30,7 +30,7 @@ Computational linguistics research holds that word meaning can be represented by
 The file is called "glove.6B.50d_Reduced.csv" which includes 38,534 unique words.
 <p></p>
 
-- The DSM file contains words and their respective vector representation. 
+- The DSM file ```java code\src\main\resources``` contains words and their respective vector representation.
 <p></p>
 
 - Each line starts with a unique word, then followed by 50 floating numbers (separated by ","). These floating numbers are the vector representation of that word. 
