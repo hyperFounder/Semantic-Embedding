@@ -35,9 +35,6 @@ public class SemanticMain {
         listWN = mySM.WordsNearest("banana");
         Toolkit.PrintSemantic(listWN, 5);
 
-        listWN = mySM.WordsNearest("hater");
-        Toolkit.PrintSemantic(listWN, 5);
-
 
     }
 

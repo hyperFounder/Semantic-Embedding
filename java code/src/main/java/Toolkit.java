@@ -72,36 +72,7 @@ public class Toolkit {
         return listVectors;
     }
 
-    /**
-     * DO NOT MODIFY
-     * Method to print out the semantic information.
-     * <p>
-     * Example: uk is to london as china is to XXXX.
-     * _firISRef  _firTORef _secISRef
-     * In the above example, "uk" is the first IS reference; "london" is the first TO reference
-     * and "china" is the second IS reference.
-     *
-     * @param _secISRef The second IS reference
-     * @param _firISRef The first IS reference
-     * @param _firTORef The first TO reference
-     * @param _list     The CosSimilarityPair list
-     */
-    public static void PrintSemantic(String _secISRef, String _firISRef, String _firTORef, List<CosSimilarityPair> _list) {
-        System.out.println("=============================");
-        System.out.printf("Identifying the logical analogies of %s (use %s and %s as a reference).\r\n", _secISRef, _firISRef, _firTORef);
-        System.out.printf("%s is to %s as %s is to %s.\r\nOther options include:\r\n", _firISRef, _firTORef, _secISRef, _list.get(0).getWord2());
-        for (int i = 1; i < _list.size(); i++) {
-            System.out.println(_list.get(i).getWord2() + ", " + _list.get(i).getCosineSimilarity());
-        }
-        System.out.println("=============================");
-    }
 
-    /**
-     * DO NOT MODIFY
-     *
-     * @param _listCosineSimilarity The CosSimilarityPair list.
-     * @param _top                  How many vocabularies to print.
-     */
     public static void PrintSemantic(List<CosSimilarityPair> _listCosineSimilarity, int _top) {
         if (_listCosineSimilarity.size() > 0) {
             System.out.println("============" + _listCosineSimilarity.get(0).getWord1() + "============");
