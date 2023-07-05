@@ -47,7 +47,8 @@ Based on the DSM theory, there is a clustering/grouping trend for words with sim
 
 <p></p>
 
-<img src="images/figure1.png"  width="40%" height="18%">
+
+<img class="h-auto max-w-full"  width="45%" height="17%" src="images/figure1.png" alt="image description">
 
 - Moreover, the "closeness" of two words can be measured by the called Cosine Distance/Similarity. CS is a measure of the cosine of the angle between two non-zero vectors (θ). The following equation for cos(θ) is:
 
