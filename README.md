@@ -57,4 +57,23 @@ Based on the DSM theory, there is a clustering/grouping trend for words with sim
 
 - So, back to the "Computer" examples mentioned at the beginning of the document. To identify the closest word to "Computer", we can calculate its CS value with all the other words included in the DSM file. Then the higher the CS value is, the closer a word is to "Computer".
 
+# Running the program
+
+- Clone this repository to your local machine.
+  
+<p></p>
+
+```
+git clone https://github.com/hyperFounder/Semantic-Embedding
+```
+
+- Open the ```java code``` folder in IntelliJ IDEA or any other IDE. Navigate to ```\src\main\java```.
+<p></p>
+
+- Run ```SemanticMain.java``` in ```\src\main\java```. 
+
+
+
+
+  
 
