@@ -1,3 +1,4 @@
+
 # Semantic-Embedding
 
 In this project, we build a prototype Question 
@@ -8,6 +9,16 @@ called "glove.6B.50d_Reduced.csv".
 
 - By providing a specific word, we would like the system to be able to find a list of words that are semantically close to it. E.g. By saying "Computer", the system should list "Software", "Technology", "Internet", "Computing" and "Devices" as the top 5 closest words. Or "Doctorate", "Bachelor", "Thesis", "Dissertation" and "Graduate" should be the top 5 closest words to "PhD".
 
+<!-- TOC --><a name="table-of-contents"></a>
+## Table of Contents
+- [Word Embedding and GloVe](#word-embedding-and-glove)
+- [DSM File](#dsm-file)
+- [Extracting semantic information from vector representations](#extracting-semantic-information-from-vector-representations)
+- [Running the program](#running-the-program)
+
+
+
+<!-- TOC --><a name="word-embedding-and-glove"></a>
 ## Word Embedding and GloVe
 
 Computational linguistics research holds that word meaning can be represented by its contextual information because similar contextual distributions tend to share between semantically similar words. The idea of Distributional Semantic Models (DSM), which have also been referred to as word space or vector space models, is that the meaning of words can, to a certain extent, be inferred from their usage and therefore the semantics can be encapsulated in high-dimensional vectors based on the nearby co-occurrence of words.
@@ -25,6 +36,7 @@ Computational linguistics research holds that word meaning can be represented by
 
 
 
+<!-- TOC --><a name="dsm-file"></a>
 ### DSM File
 
 The file is called "glove.6B.50d_Reduced.csv" which includes 38,534 unique words.
@@ -38,6 +50,7 @@ The file is called "glove.6B.50d_Reduced.csv" which includes 38,534 unique words
 
 - Using the word "abacus" as an example, the first element in its vector representation should be "0.9102".
 
+<!-- TOC --><a name="extracting-semantic-information-from-vector-representations"></a>
 ## Extracting semantic information from vector representations
 
 Based on the DSM theory, there is a clustering/grouping trend for words with similar meanings. Using the below figure (Fig. 1)  as an example, originally, it has been used to explain how Word2Vec understands semantic relationships, like Paris and France are related the same way Beijing and China are (capital and country), and not in the same way Lisbon and Japan are.
@@ -57,6 +70,7 @@ Based on the DSM theory, there is a clustering/grouping trend for words with sim
 
 - So, back to the "Computer" examples mentioned at the beginning of the document. To identify the closest word to "Computer", we can calculate its CS value with all the other words included in the DSM file. Then the higher the CS value is, the closer a word is to "Computer".
 
+<!-- TOC --><a name="running-the-program"></a>
 # Running the program
 
 - Clone this repository to your local machine.
