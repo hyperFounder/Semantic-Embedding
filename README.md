@@ -9,12 +9,17 @@ called "glove.6B.50d_Reduced.csv".
 
 - By providing a specific word, we would like the system to be able to find a list of words that are semantically close to it. E.g. By saying "Computer", the system should list "Software", "Technology", "Internet", "Computing" and "Devices" as the top 5 closest words. Or "Doctorate", "Bachelor", "Thesis", "Dissertation" and "Graduate" should be the top 5 closest words to "PhD".
 
+ - For Further information, please read [Chapter 6 of Speech and Language Processing, Stanford University.](https://web.stanford.edu/~jurafsky/slp3/6.pdf)
+# Acknowledgements
+
+ - I am grateful to the dedication of [Dr. Dan Jurafsky](https://web.stanford.edu/~jurafsky/) and [Dr. James H. Martin](https://home.cs.colorado.edu/~martin/). Their expertise have significantly advanced our understanding of speech and language technologies, shaping the way we interact with and analyze textual and spoken data. Their comprehensive and insightful approach in the book [Speech and Language Processing](https://web.stanford.edu/~jurafsky/slp3/) has served as a fundamental resource for researchers, students, and practitioners alike, providing a solid foundation in the study of speech recognition and natural language processing.
 <!-- TOC --><a name="table-of-contents"></a>
 ## Table of Contents
 - [Word Embedding and GloVe](#word-embedding-and-glove)
 - [DSM File](#dsm-file)
 - [Extracting semantic information from vector representations](#extracting-semantic-information-from-vector-representations)
 - [Running the program](#running-the-program)
+
 
 
 
