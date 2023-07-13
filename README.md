@@ -89,7 +89,10 @@ git clone https://github.com/hyperFounder/Semantic-Embedding
 - Open the ```/java code``` folder in IntelliJ IDEA or any other IDE. Navigate to ```\src\main\java```.
 <p></p>
 
-- Run ```SemanticMain.java``` in ```\src\main\java```. 
+- Run ```SemanticMain.java``` in ```\src\main\java```.
+
+# License
+This project is licensed under the [GNU General Public License v3.0 ](https://github.com/hyperFounder/Semantic-Embedding/blob/main/LICENSE).
 
 
 
