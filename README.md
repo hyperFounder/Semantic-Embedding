@@ -86,7 +86,7 @@ Based on the DSM theory, there is a clustering/grouping trend for words with sim
 git clone https://github.com/hyperFounder/Semantic-Embedding
 ```
 
-- Open the ```java code``` folder in IntelliJ IDEA or any other IDE. Navigate to ```\src\main\java```.
+- Open the ```/java code``` folder in IntelliJ IDEA or any other IDE. Navigate to ```\src\main\java```.
 <p></p>
 
 - Run ```SemanticMain.java``` in ```\src\main\java```. 
