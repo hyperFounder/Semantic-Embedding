@@ -92,7 +92,7 @@ git clone https://github.com/hyperFounder/Semantic-Embedding
 - Run ```SemanticMain.java``` in ```\src\main\java```.
 
 # License
-This project is licensed under the [GNU General Public License v3.0 ](https://github.com/hyperFounder/Semantic-Embedding/blob/main/LICENSE).
+This project is licensed under the [GNU General Public License v3.0](https://github.com/hyperFounder/Semantic-Embedding/blob/main/LICENSE).
 
 
 
